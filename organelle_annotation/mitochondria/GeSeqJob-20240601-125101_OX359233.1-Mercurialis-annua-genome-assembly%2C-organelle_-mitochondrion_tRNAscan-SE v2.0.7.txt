@@ -1,0 +1,31 @@
+#Please note (due to the simulation of a circular input sequence by GeSeq)
+#tRNA predictions outside the range of the submitted sequence might be displayed.
+#For details please refer to our Documentation.
+#
+Sequence   		tRNA  	Bounds	tRNA	Anti	Intron Bounds	Inf	      
+Name       	tRNA #	Begin 	End   	Type	Codon	Begin	End	Score	Note
+--------   	------	----- 	------	----	-----	-----	----	------	------
+OX359233.1 	1	16533 	16605 	Lys	TTT	0	0	75.0	
+OX359233.1 	2	177939	178011	Cys	GCA	0	0	62.0	
+OX359233.1 	3	187425	187498	Met	CAT	0	0	54.4	
+OX359233.1 	4	191245	191309	Undet	NNN	0	0	36.2	
+OX359233.1 	5	191471	191544	Trp	CCA	0	0	69.7	
+OX359233.1 	6	196589	196661	Undet	NNN	0	0	35.0	
+OX359233.1 	7	213149	213222	Asp	GTC	0	0	69.0	
+OX359233.1 	8	221880	221951	Glu	TTC	0	0	60.8	
+OX359233.1 	9	263321	263394	Asp	GTC	0	0	65.8	
+OX359233.1 	10	300908	300994	Ser	GGA	0	0	73.6	
+OX359233.1 	11	345149	345219	Cys	GCA	0	0	49.0	
+OX359233.1 	12	346970	347041	Asn	GTT	0	0	68.2	
+OX359233.1 	13	347872	347954	Tyr	GTA	0	0	68.9	
+OX359233.1 	14	364716	364655	Undet	NNN	0	0	17.4	
+OX359233.1 	15	318285	318210	Leu	TAA	0	0	49.1	
+OX359233.1 	16	220083	220010	His	GTG	0	0	62.5	
+OX359233.1 	17	212164	212091	Met	CAT	0	0	60.1	
+OX359233.1 	18	209749	209677	Met	CAT	0	0	64.6	
+OX359233.1 	19	206237	206166	Gly	GCC	0	0	63.4	
+OX359233.1 	20	202267	202196	Gln	TTG	0	0	64.9	
+OX359233.1 	21	75196 	75109 	Ser	GCT	0	0	62.2	
+OX359233.1 	22	74684 	74611 	Phe	GAA	0	0	61.0	
+OX359233.1 	23	74282 	74208 	Pro	TGG	0	0	62.8	
+OX359233.1 	24	63515 	63429 	Ser	TGA	0	0	69.8	
