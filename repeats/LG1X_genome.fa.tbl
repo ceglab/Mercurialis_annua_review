@@ -1,0 +1,59 @@
+==================================================
+file name: LG1X_genome.fa           
+sequences:             1
+total length:   74045953 bp  (74044953 bp excl N/X-runs)
+GC level:         33.51 %
+bases masked:    6770415 bp ( 9.14 %)
+==================================================
+               number of      length   percentage
+               elements*    occupied  of sequence
+--------------------------------------------------
+Retroelements         5309      3099513 bp    4.19 %
+   SINEs:               19         4332 bp    0.01 %
+   Penelope              0            0 bp    0.00 %
+   LINEs:              581       208330 bp    0.28 %
+    CRE/SLACS            0            0 bp    0.00 %
+     L2/CR1/Rex         16         3199 bp    0.00 %
+     R1/LOA/Jockey       0            0 bp    0.00 %
+     R2/R4/NeSL         63         2534 bp    0.00 %
+     RTE/Bov-B           6          553 bp    0.00 %
+     L1/CIN4           495       202001 bp    0.27 %
+   LTR elements:      4709      2886851 bp    3.90 %
+     BEL/Pao             8         1334 bp    0.00 %
+     Ty1/Copia        2316      1323391 bp    1.79 %
+     Gypsy/DIRS1      2275      1518769 bp    2.05 %
+       Retroviral       16         1309 bp    0.00 %
+
+DNA transposons       2858       535835 bp    0.72 %
+   hobo-Activator     1330       221720 bp    0.30 %
+   Tc1-IS630-Pogo        0            0 bp    0.00 %
+   En-Spm                0            0 bp    0.00 %
+   MuDR-IS905            0            0 bp    0.00 %
+   PiggyBac              0            0 bp    0.00 %
+   Tourist/Harbinger    16         7247 bp    0.01 %
+   Other (Mirage,        0            0 bp    0.00 %
+    P-element, Transib)
+
+Rolling-circles         97        59932 bp    0.08 %
+
+Unclassified:         5108      1342027 bp    1.81 %
+
+Total interspersed repeats:     4977375 bp    6.72 %
+
+
+Small RNA:             233        91959 bp    0.12 %
+
+Satellites:              7          878 bp    0.00 %
+Simple repeats:      24692      1217524 bp    1.64 %
+Low complexity:       7815       426505 bp    0.58 %
+==================================================
+
+* most repeats fragmented by insertions or deletions
+  have been counted as one element
+                                                      
+
+The query species was assumed to be eudicots      
+RepeatMasker version 4.1.2-p1 , default mode
+                                     
+run with rmblastn version 2.11.0+
+FamDB: CONS-Dfam_3.2
