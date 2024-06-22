@@ -1,0 +1,32 @@
+# BUSCO version is: 5.7.1 
+# The lineage dataset is: eudicots_odb10 (Creation date: 2024-01-08, number of genomes: 31, number of BUSCOs: 2326)
+# Summarized benchmarking in BUSCO notation for file /media/ashutosh/disk3/000mrityunjay/mercury/ncbi_dataset/data/GCA_019578655.1_ASM1957865v1_genomic.fna
+# BUSCO was run in mode: euk_genome_min
+# Gene predictor used: miniprot
+
+	***** Results: *****
+
+	C:98.5%[S:97.6%,D:0.9%],F:0.9%,M:0.6%,n:2326,E:3.2%	   
+	2291	Complete BUSCOs (C)	(of which 73 contain internal stop codons)		   
+	2270	Complete and single-copy BUSCOs (S)	   
+	21	Complete and duplicated BUSCOs (D)	   
+	21	Fragmented BUSCOs (F)			   
+	14	Missing BUSCOs (M)			   
+	2326	Total BUSCO groups searched		   
+
+Assembly Statistics:
+	146	Number of scaffolds
+	476	Number of contigs
+	316113298	Total length
+	0.052%	Percent gaps
+	31 MB	Scaffold N50
+	7 MB	Contigs N50
+
+
+Dependencies and versions:
+	hmmsearch: 3.1
+	bbtools: 39.01
+	miniprot_index: 0.13-r248
+	miniprot_align: 0.13-r248
+	python: sys.version_info(major=3, minor=8, micro=19, releaselevel='final', serial=0)
+	busco: 5.7.1

@@ -1,0 +1,29 @@
+2024-06-14 10:23:19 INFO:__main__	****************** Start plot generation at 06/14/2024 10:23:19 ******************
+2024-06-14 10:23:19 INFO:__main__	Load data ...
+2024-06-14 10:23:19 INFO:__main__	Loaded ./short_summary.specific.eudicots_odb10.busco_GCF_000151685.1_JCVI_RCG_1.1_genomic.txt successfully
+2024-06-14 10:23:19 INFO:__main__	Loaded ./short_summary.specific.eudicots_odb10.busco_GCA_948193465.1_Ah-TARS4886-DRAFT-NextGenCassava-1.0_genomic.txt successfully
+2024-06-14 10:23:19 INFO:__main__	Loaded ./short_summary.specific.eudicots_odb10.busco_GCA_947675665.1_Ma-PI279720-DRAFT-NextGenCassava-1.0_genomic.txt successfully
+2024-06-14 10:23:19 INFO:__main__	Loaded ./short_summary.specific.eudicots_odb10.busco_GCA_937609235.2_ddMerAnnu1.2_alternate_haplotype_genomic.txt successfully
+2024-06-14 10:23:19 INFO:__main__	Loaded ./short_summary.specific.eudicots_odb10.busco_GCA_949671775.1_SAMN08770936-DRAFT-NextGenCassava-1.0_genomic.txt successfully
+2024-06-14 10:23:19 INFO:__main__	Loaded ./short_summary.specific.eudicots_odb10.busco_GCA_000151685.2_JCVI_RCG_1.1_genomic.txt successfully
+2024-06-14 10:23:19 INFO:__main__	Loaded ./short_summary.specific.eudicots_odb10.busco_GCF_937616625.2_ddMerAnnu1.2_genomic.txt successfully
+2024-06-14 10:23:19 INFO:__main__	Loaded ./short_summary.specific.eudicots_odb10.busco_GCA_949673435.1_SAMN08770805-DRAFT-NextGenCassava-1.0_genomic.txt successfully
+2024-06-14 10:23:19 INFO:__main__	Loaded ./short_summary.specific.eudicots_odb10.busco_GCA_947683625.1_Mn-MIA8875-DRAFT-NextGenCassava-1.0_genomic.txt successfully
+2024-06-14 10:23:19 INFO:__main__	Loaded ./short_summary.specific.eudicots_odb10.busco_GCA_949634005.1_SAMN08770392-DRAFT-NextGenCassava-1.0_genomic.txt successfully
+2024-06-14 10:23:19 INFO:__main__	Loaded ./short_summary.specific.eudicots_odb10.busco_GCA_937616625.2_ddMerAnnu1.2_genomic.txt successfully
+2024-06-14 10:23:19 INFO:__main__	Loaded ./short_summary.specific.eudicots_odb10.busco_GCA_019578655.1_ASM1957865v1_genomic.txt successfully
+2024-06-14 10:23:19 INFO:__main__	Loaded ./short_summary.specific.eudicots_odb10.busco_GCF_019578655.1_ASM1957865v1_genomic.txt successfully
+2024-06-14 10:23:19 INFO:__main__	Generate the R code ...
+2024-06-14 10:23:19 INFO:__main__	Run the R code ...
+2024-06-14 10:23:24 INFO:__main__	
+[1] "Plotting the figure ..."
+[1] "Done"
+
+2024-06-14 10:23:24 ERROR:__main__	
+Warning message:
+The `size` argument of `element_line()` is deprecated as of ggplot2 3.4.0.
+ℹ Please use the `linewidth` argument instead. 
+
+2024-06-14 10:23:24 INFO:__main__	Plot generation done. Total running time: 4.974131345748901 seconds
+2024-06-14 10:23:24 INFO:__main__	Results written in ./
+

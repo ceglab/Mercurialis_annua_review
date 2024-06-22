@@ -1,0 +1,74 @@
+2024-06-14 01:40:50 INFO:__main__	****************** Start plot generation at 06/14/2024 01:40:50 ******************
+2024-06-14 01:40:50 INFO:__main__	Load data ...
+2024-06-14 01:40:50 INFO:__main__	Loaded ./short_summary.specific.eudicots_odb10.busco_GCF_000151685.1_JCVI_RCG_1.1_genomic.txt successfully
+2024-06-14 01:40:50 INFO:__main__	Loaded ./short_summary.specific.eudicots_odb10.busco_GCA_947675665.1_Ma-PI279720-DRAFT-NextGenCassava-1.0_genomic.txt successfully
+2024-06-14 01:40:50 INFO:__main__	Loaded ./short_summary.specific.eudicots_odb10.busco_GCA_937609235.2_ddMerAnnu1.2_alternate_haplotype_genomic.txt successfully
+2024-06-14 01:40:50 INFO:__main__	Loaded ./short_summary.specific.eudicots_odb10.busco_GCA_000151685.2_JCVI_RCG_1.1_genomic.txt successfully
+2024-06-14 01:40:50 INFO:__main__	Loaded ./short_summary.specific.eudicots_odb10.busco_GCF_937616625.2_ddMerAnnu1.2_genomic.txt successfully
+2024-06-14 01:40:50 INFO:__main__	Loaded ./short_summary.specific.eudicots_odb10.busco_GCA_947683625.1_Mn-MIA8875-DRAFT-NextGenCassava-1.0_genomic.txt successfully
+2024-06-14 01:40:50 INFO:__main__	Loaded ./short_summary.specific.eudicots_odb10.busco_GCA_937616625.2_ddMerAnnu1.2_genomic.txt successfully
+2024-06-14 01:40:50 INFO:__main__	Loaded ./short_summary.specific.eudicots_odb10.busco_GCA_019578655.1_ASM1957865v1_genomic.txt successfully
+2024-06-14 01:40:50 INFO:__main__	Loaded ./short_summary.specific.eudicots_odb10.busco_GCF_019578655.1_ASM1957865v1_genomic.txt successfully
+2024-06-14 01:40:50 INFO:__main__	Generate the R code ...
+2024-06-14 01:40:50 INFO:__main__	Run the R code ...
+2024-06-14 01:40:57 INFO:__main__	
+[1] "Plotting the figure ..."
+
+2024-06-14 01:40:57 ERROR:__main__	
+Warning message:
+The `size` argument of `element_line()` is deprecated as of ggplot2 3.4.0.
+ℹ Please use the `linewidth` argument instead. 
+Error in `geom_bar()`:
+! Problem while converting geom to grob.
+ℹ Error occurred in the 1st layer.
+Caused by error:
+! Malformed colour string `#EDA83`. Must contain either 3, 4, 6 or 8 hex values
+Backtrace:
+     ▆
+  1. ├─ggplot2::ggsave(...)
+  2. │ ├─grid::grid.draw(plot)
+  3. │ └─ggplot2:::grid.draw.ggplot(plot)
+  4. │   ├─base::print(x)
+  5. │   └─ggplot2:::print.ggplot(x)
+  6. │     ├─ggplot2::ggplot_gtable(data)
+  7. │     └─ggplot2:::ggplot_gtable.ggplot_built(data)
+  8. │       └─ggplot2:::by_layer(...)
+  9. │         ├─rlang::try_fetch(...)
+ 10. │         │ ├─base::tryCatch(...)
+ 11. │         │ │ └─base (local) tryCatchList(expr, classes, parentenv, handlers)
+ 12. │         │ │   └─base (local) tryCatchOne(expr, names, parentenv, handlers[[1L]])
+ 13. │         │ │     └─base (local) doTryCatch(return(expr), name, parentenv, handler)
+ 14. │         │ └─base::withCallingHandlers(...)
+ 15. │         └─ggplot2 (local) f(l = layers[[i]], d = data[[i]])
+ 16. │           └─l$draw_geom(d, layout)
+ 17. │             └─ggplot2 (local) draw_geom(..., self = self)
+ 18. │               └─self$geom$draw_layer(...)
+ 19. │                 └─ggplot2 (local) draw_layer(..., self = self)
+ 20. │                   └─base::lapply(...)
+ 21. │                     └─ggplot2 (local) FUN(X[[i]], ...)
+ 22. │                       ├─rlang::inject(self$draw_panel(data, panel_params, coord, !!!params))
+ 23. │                       └─self$draw_panel(data, panel_params, coord, width = 0.75, flipped_aes = FALSE)
+ 24. │                         └─ggplot2 (local) draw_panel(..., self = self)
+ 25. │                           └─ggproto_parent(GeomRect, self)$draw_panel(...)
+ 26. │                             └─ggplot2 (local) draw_panel(..., self = self)
+ 27. │                               ├─ggplot2:::ggname(...)
+ 28. │                               │ └─grid::grobName(grob, prefix)
+ 29. │                               ├─grid::rectGrob(...)
+ 30. │                               │ └─grid::grob(...)
+ 31. │                               ├─grid::gpar(...)
+ 32. │                               │ └─grid:::validGP(list(...))
+ 33. │                               │   └─grid (local) numnotnull("fontsize")
+ 34. │                               └─ggplot2::fill_alpha(coords$fill, coords$alpha)
+ 35. │                                 └─scales::alpha(fill, alpha)
+ 36. │                                   └─farver::decode_colour(colour, alpha = TRUE)
+ 37. │                                     └─farver:::decode_c(...)
+ 38. └─base::.handleSimpleError(...)
+ 39.   └─rlang (local) h(simpleError(msg, call))
+ 40.     └─handlers[[1L]](cnd)
+ 41.       └─cli::cli_abort(...)
+ 42.         └─rlang::abort(...)
+Execution halted
+
+2024-06-14 01:40:57 INFO:__main__	Plot generation done. Total running time: 6.919450759887695 seconds
+2024-06-14 01:40:57 INFO:__main__	Results written in ./
+
